@@ -70,7 +70,7 @@ Windows:
 
 ## Usage
 - To put/update content on _left_ endpoint use HTTP PUT request<br />
-_**url:**_ 	_http://<host>:8080/v1/diff/{content_id}/left_<br />
+_**url:**_ 	_http://\<host\>:8080/v1/diff/{content_id}/left_<br />
 _**body (JSON):**_
 ```json
 {
@@ -78,7 +78,7 @@ _**body (JSON):**_
 }
 ```
 - To put/update content on _right_ endpoint use HTTP PUT request<br />
-_**url**_: 	_http://<host>:8080/v1/diff/{content_id}/right_<br />
+_**url**_: 	_http://\<host\>:8080/v1/diff/{content_id}/right_<br />
 _**body (JSON):**_
 ```json
 {
@@ -86,7 +86,7 @@ _**body (JSON):**_
 }
 ```
 - To get difference between _'left'_ and _'right'_ content use HTTP GET request<br />
-_**url:**_ _http://<host>:8080/v1/diff/{content_id}_
+_**url:**_ _http://\<host\>:8080/v1/diff/{content_id}_
 
 ## Examples
 - Putting content with ID 1 using _left_ endpoint<br />
