@@ -85,7 +85,7 @@ _**body (JSON):**_
 	"data": "<content>"
 }
 ```
-- To get difference between _'left'_ and _'right'_ content use HTTP GET request<br />
+- To get difference between _left_ and _right_ content use HTTP GET request<br />
 _**url:**_ _http://\<host\>:8080/v1/diff/{content_id}_
 
 ## Examples
