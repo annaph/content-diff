@@ -98,8 +98,8 @@ _**body (JSON):**_
 	"data": "AAAAAA=="
 }
 ```
-- Get difference between _left_ and _right_ content with ID 1
-_**url:**_: _http://localhost:8080/v1/diff/1_
+- Get difference between _left_ and _right_ content with ID 1<br />
+_**url:**_: _http://localhost:8080/v1/diff/1_<br />
 _**method:**_ GET
 
 ## Design
