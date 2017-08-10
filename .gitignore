@@ -1,2 +1,14 @@
-*.class
-*.log
+/project/*-shim.sbt
+/project/project/
+/project/target/
+
+/target/
+
+/.idea/
+/.settings/
+
+.cache-main
+.cache-tests
+
+.classpath
+.project
