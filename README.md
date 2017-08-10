@@ -58,7 +58,7 @@ Windows:
 Installation consists of extracting installation zip file _target/universal/content-diff-1.0.0.zip_ to arbitrary location.
 
 ## Run
-Goto _content-diff-1.0.0/bin_ folder and run _content-diff_ script.
+Goto _content-diff-1.0.0/bin_ folder and run _content-diff_ script.<br />
 Linux:
 ```sh
 $ ./content-diff
@@ -69,29 +69,29 @@ Windows:
 ```
 
 ## Usage
-- To put/update content on _left_ endpoint use HTTP PUT request
-_**url:**_ 	_http://<host>:8080/v1/diff/{content_id}/left_
+- To put/update content on _left_ endpoint use HTTP PUT request<br />
+_**url:**_ 	_http://<host>:8080/v1/diff/{content_id}/left_<br />
 _**body (JSON):**_
 ```json
 {
 	"data": "<content>"
 }
 ```
-- To put/update content on _right_ endpoint use HTTP PUT request
-_**url**_: 	_http://<host>:8080/v1/diff/{content_id}/right_
+- To put/update content on _right_ endpoint use HTTP PUT request<br />
+_**url**_: 	_http://<host>:8080/v1/diff/{content_id}/right_<br />
 _**body (JSON):**_
 ```json
 {
 	"data": "<content>"
 }
 ```
-- To get difference between _'left'_ and _'right'_ content use HTTP GET request
+- To get difference between _'left'_ and _'right'_ content use HTTP GET request<br />
 _**url:**_ _http://<host>:8080/v1/diff/{content_id}_
 
 ## Examples
-- Putting content with ID 1 using _left_ endpoint
-_**url:**_:	_http://localhost:8080/v1/diff/1/left_
-_**method:**_ PUT
+- Putting content with ID 1 using _left_ endpoint<br />
+_**url:**_:	_http://localhost:8080/v1/diff/1/left_<br />
+_**method:**_ PUT<br />
 _**body (JSON):**_
 ```json
 {
